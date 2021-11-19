@@ -14,14 +14,6 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "publishConfig": {
-    "registry": "http://dcloud.npm.shiyutian.com:7001/",
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://git.definesys.com/demdm/dcloud-mdm-custom.git"
-  },
   "scripts": {
     "serve": "vue-cli-service serve ./examples/main.js",
     "build": "vue-cli-service build --target lib ./src/index.js",
@@ -70,6 +62,5 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ],
-  "gitHead": "64c719779913f6d8e6a72923e780e29a6b57eefc"
+  ]
 }
